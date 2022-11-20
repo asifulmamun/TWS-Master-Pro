@@ -1,0 +1,19 @@
+{
+  "name": "tws-master-pro",
+  "version": "1.0.0",
+  "description": "This is wordpress theme, It is for Tawakkulshop.com but, anyone can use it by owner permission with purchase or owner gift. It was build in 2022.",
+  "main": "./webpack-entry.js",
+  "scripts": {
+    "test": "npm run build"
+  },
+  "keywords": [
+    "tawakkulshop wp theme",
+    "tws master pro wordpress theme"
+  ],
+  "author": "Al Mamun",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.0"
+  }
+}
