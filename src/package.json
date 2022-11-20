@@ -4,7 +4,7 @@
   "description": "This is wordpress theme, It is for Tawakkulshop.com but, anyone can use it by owner permission with purchase or owner gift. It was build in 2022.",
   "main": "./webpack-entry.js",
   "scripts": {
-    "test": "npm run build"
+    "build": "webpack"
   },
   "keywords": [
     "tawakkulshop wp theme",
@@ -13,6 +13,13 @@
   "author": "Al Mamun",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.0",
+    "css-loader": "^6.7.2",
+    "mini-css-extract-plugin": "^2.7.0",
+    "sass": "^1.56.1",
+    "sass-loader": "^13.2.0",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.0"
   }
